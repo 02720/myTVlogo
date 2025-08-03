@@ -60,7 +60,8 @@ async def process_channel(channel, urls, semaphore):
 channels_url = [
     "https://github.com/mytv-android/iptv-api/raw/refs/heads/master/config/demo.txt", 
     "https://github.com/mytv-android/myTVlogo/raw/refs/heads/main/channel.txt",
-    "https://github.com/ldm0206/iptv-api/raw/refs/heads/master/config/demo.txt"
+    "https://github.com/ldm0206/iptv-api/raw/refs/heads/master/config/demo.txt",
+    "https://gitee.com/hyx2230/iptv-api/raw/master/config/demo.txt"
 ]
 async def main():
     urls = get_urls()
